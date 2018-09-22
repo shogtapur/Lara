@@ -1,0 +1,15 @@
+app1 : " + operator ".
+app2 : post of using unary operator.
+
+sept17/09/2018
+
+app3: 	pre way of using unary operator.
+app4:   boolean operation.
+
+sep 18/09/2018 and 19/09/2018
+app5: if-blocks
+
+sep 20/09/2018
+app6: else-blocks
+
+
