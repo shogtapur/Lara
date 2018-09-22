@@ -1,0 +1,67 @@
+1)path eniviroment update
+-> command location to the comand promt.
+ 3 way to set path
+ 
+1) USing "SET COMMAND" in Command promt
+
+C:\Users\shogtapu>set path=C:\JDK8.0\bin
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\shogtapu>set path=C:\JDK8.0
+
+C:\Users\shogtapu>set path=C:
+
+C:\Users\shogtapu>set path=C:\JDK8.0\bin
+
+C:\Users\shogtapu>javac -version
+javac 1.8.0_181
+
+C:\Users\shogtapu>java -version
+java version "1.8.0_181"
+Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
+
+C:\Users\shogtapu>cd \
+
+C:\>java -version
+java version "1.8.0_181"
+Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
+
+*local to the current command promt.
+*Setting command for one command promt, not visisble to other command.
+* Names of the evnvironment variable are case sensetive.
+
+
+####
+3 step of developing program.
+1) compose.
+2) compile.
+3) Run
+
+
+
+->JAVAC command- java compiler
+
+
+############
+4 programming elements:
+
+1) keywords -> pre difined words in the programming language. assinged with syntax, defined, etc.
+
+2) Identifiers -> names to the class , methods, variable, argument. ex: HelloWorld , main , args
+
+3) Literal -> it is nothing but a Value. every values are considered as literals.
+		Ex:
+		  #premitive type literal
+		   
+		   *	int ->10 , 20 ,30 .(number without decimal)
+		   * 	double -> 10.2 ,12.9.(Number with decimal)
+		   *	char -> 'a', 's' , '#', '*'. (any charecter under single quote)
+		   *	boolean -> true, false.
+		  
+		  # Derived type literal 
+		   * 	String -> "Hello" , "anything" , "123" , "" , "$$$$" .(anything under double  quote)
+		   
+4) built-in -> what ever feature created inside prgamming language.

@@ -1,0 +1,107 @@
+Boolean operator
+	1) boolean by default value is false.
+	
+
+
+
+
+-> OR  (||)
+	if any one is true then result is true esle fasle.
+	
+	Ex:
+		class F 
+		{
+			public static void main(String[] args) 
+			{
+				System.out.println(true  || true);
+				System.out.println(true  || false);
+				System.out.println(false  || true);
+				System.out.println(false  || false);
+			}
+		}
+	* if first operation is true then  it wont execute next operation.(to save excution time)
+	Ex:
+	*imp*
+	# not execute second operaion in below example.
+	class G
+	{
+		public static void main(String[] args) 
+		{
+			int i=0;
+			System.out.println((++i ==1) || (++i ==2));
+			System.out.println(i); // i=1;
+		}
+	}
+		# will  execute second operaion in below example. if first operation false, then it has to excute next operation
+	class H
+	{
+		public static void main(String[] args) 
+		{
+			int i=0;
+			System.out.println((++i ==0) || (++i ==2));
+			System.out.println(i);
+		}
+	}
+
+	
+
+	
+-> AND (&&)
+	if both operands are true then only result are true
+	ex:
+	class I 
+	{
+		public static void main(String[] args) 
+		{
+			System.out.println(true && true);
+			System.out.println(true && false);
+			System.out.println(false && true);
+			System.out.println(false && false);
+		}
+	}
+	*imp*
+	# if first operation itself is false , then it wont excute second operation.
+	ex:
+	class J
+	{
+		public static void main(String[] args) 
+		{
+			int i=0;
+			System.out.println((++i ==0 ) && (++i ==2));
+			System.out.println(i); //i=1
+
+		}
+	}
+	# if first operation is true then only it will execute second operation.
+
+	ex:
+	class K
+	{
+		public static void main(String[] args) 
+		{
+			int i=0;
+			System.out.println((++i ==1 ) && (++i ==2));
+			System.out.println(i); //i=2
+
+		}
+	}
+
+	
+-> NOT (!)
+	opposite of operand
+	
+	ex:
+	class D
+	{
+		public static void main(String[] args) 
+		{
+
+			int i=0;
+
+			System.out.println(i == 0);
+			System.out.println(i != 0);
+			System.out.println(!(i == 0));
+			System.out.println(!(i != 0));
+
+		}
+	}

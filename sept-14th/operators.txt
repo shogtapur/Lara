@@ -1,0 +1,70 @@
+ 
+ operators in java
+ 
+ # "+ operator"
+		by using '+operator' we can add string to anythting.
+		
+		-> we can concate string using + operator.
+		-> + operator is overridden in java to concat the two string or one string with any data type.
+		-> Excuction happens left to right.
+		-> operand are the value to the operator.
+			ex:
+				a + b  => a and b is are opearand and + is operator.
+		
+		-> through "+ operator" we are concatination operation on string.
+		
+# "unary operator"
+		
+   ->if any operator bringing one unit effect  in the variable that is unary operator.
+   ->only for variable.
+   
+	Q: what is one unit?
+	A: it may be incrimanting or decremining  to the variable by one unit.
+			"++"  incriment unary operator and "--" decrement unary operator
+		
+    -> both unary can be used in two diffrent ways, 
+				1) post usage : first variable then operator. ex i++
+				2) pre usage  :	first operator then variable. ex ++i		
+				
+				
+	-> post unary operation are afftecting from the next  usage. i.e first use then incriment.
+			operated value shold not affect at the place of operating it should effect next usage
+	-> pre unary operation are afftecting first. i.e first incriment then use.
+	
+	
+	
+	Example :
+	-> post usage
+		class  E
+		{
+			public static void main(String[] args) 
+			{
+
+			int i=0;
+			int j=i++ + i;
+			// 1 = 0 + 1(incrimented from previous operation)
+			System.out.println(i);
+			System.out.println(j);
+
+			}
+		}
+ 
+	pre usage
+	class  F
+	{
+		public static void main(String[] args) 
+		{
+			
+			int i=5;
+			int j=i-- + i;
+			// 9 = 5 + 4(decriment from previous operation)
+			System.out.println(i);
+			System.out.println(j);
+
+		}
+	}
+	
+	
+
+   
+ 		
